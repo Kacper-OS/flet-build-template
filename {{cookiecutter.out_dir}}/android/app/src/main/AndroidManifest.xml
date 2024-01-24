@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <category android:name="android.intent.category.HOME" />
+    <category android:name="android.intent.category.DEFAULT" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="{{ cookiecutter.project_name }}"
